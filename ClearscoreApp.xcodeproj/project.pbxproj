@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		1A93C306279F103300775F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C305279F103300775F16 /* AppDelegate.swift */; };
 		1A93C308279F103300775F16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C307279F103300775F16 /* SceneDelegate.swift */; };
-		1A93C30A279F103300775F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C309279F103300775F16 /* ViewController.swift */; };
-		1A93C30D279F103300775F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A93C30B279F103300775F16 /* Main.storyboard */; };
 		1A93C30F279F103400775F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A93C30E279F103400775F16 /* Assets.xcassets */; };
 		1A93C312279F103400775F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A93C310279F103400775F16 /* LaunchScreen.storyboard */; };
 		1A93C31D279F103400775F16 /* ClearscoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C31C279F103400775F16 /* ClearscoreAppTests.swift */; };
 		1A93C327279F103400775F16 /* ClearscoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C326279F103400775F16 /* ClearscoreAppUITests.swift */; };
 		1A93C329279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C328279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift */; };
+		1A93C338279F13E600775F16 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C337279F13E600775F16 /* RootCoordinator.swift */; };
+		1A93C33A279F13F700775F16 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C339279F13F700775F16 /* Coordinator.swift */; };
+		1A93C33D279F146800775F16 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C33C279F146800775F16 /* DashboardViewController.swift */; };
+		1A93C33F279F147100775F16 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C33E279F147100775F16 /* DashboardInteractor.swift */; };
+		1A93C341279F147C00775F16 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C340279F147C00775F16 /* DashboardViewModel.swift */; };
+		1A93C343279F148500775F16 /* DashboardViewModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C342279F148500775F16 /* DashboardViewModelBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		1A93C302279F103300775F16 /* ClearscoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearscoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A93C305279F103300775F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A93C307279F103300775F16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A93C309279F103300775F16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A93C30C279F103300775F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A93C30E279F103400775F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A93C311279F103400775F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A93C313279F103400775F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		1A93C322279F103400775F16 /* ClearscoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearscoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A93C326279F103400775F16 /* ClearscoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearscoreAppUITests.swift; sourceTree = "<group>"; };
 		1A93C328279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearscoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A93C337279F13E600775F16 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		1A93C339279F13F700775F16 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1A93C33C279F146800775F16 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		1A93C33E279F147100775F16 /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		1A93C340279F147C00775F16 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1A93C342279F148500775F16 /* DashboardViewModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModelBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,9 @@
 			children = (
 				1A93C305279F103300775F16 /* AppDelegate.swift */,
 				1A93C307279F103300775F16 /* SceneDelegate.swift */,
-				1A93C309279F103300775F16 /* ViewController.swift */,
-				1A93C30B279F103300775F16 /* Main.storyboard */,
-				1A93C30E279F103400775F16 /* Assets.xcassets */,
-				1A93C310279F103400775F16 /* LaunchScreen.storyboard */,
 				1A93C313279F103400775F16 /* Info.plist */,
+				1A93C335279F13A000775F16 /* UI */,
+				1A93C336279F13AC00775F16 /* Resources */,
 			);
 			path = ClearscoreApp;
 			sourceTree = "<group>";
@@ -125,6 +131,36 @@
 				1A93C328279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift */,
 			);
 			path = ClearscoreAppUITests;
+			sourceTree = "<group>";
+		};
+		1A93C335279F13A000775F16 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1A93C339279F13F700775F16 /* Coordinator.swift */,
+				1A93C337279F13E600775F16 /* RootCoordinator.swift */,
+				1A93C310279F103400775F16 /* LaunchScreen.storyboard */,
+				1A93C33B279F144800775F16 /* Dashboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1A93C336279F13AC00775F16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A93C30E279F103400775F16 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A93C33B279F144800775F16 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1A93C33E279F147100775F16 /* DashboardInteractor.swift */,
+				1A93C33C279F146800775F16 /* DashboardViewController.swift */,
+				1A93C340279F147C00775F16 /* DashboardViewModel.swift */,
+				1A93C342279F148500775F16 /* DashboardViewModelBuilder.swift */,
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +269,6 @@
 			files = (
 				1A93C312279F103400775F16 /* LaunchScreen.storyboard in Resources */,
 				1A93C30F279F103400775F16 /* Assets.xcassets in Resources */,
-				1A93C30D279F103300775F16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A93C30A279F103300775F16 /* ViewController.swift in Sources */,
+				1A93C338279F13E600775F16 /* RootCoordinator.swift in Sources */,
+				1A93C33F279F147100775F16 /* DashboardInteractor.swift in Sources */,
+				1A93C33A279F13F700775F16 /* Coordinator.swift in Sources */,
 				1A93C306279F103300775F16 /* AppDelegate.swift in Sources */,
+				1A93C343279F148500775F16 /* DashboardViewModelBuilder.swift in Sources */,
 				1A93C308279F103300775F16 /* SceneDelegate.swift in Sources */,
+				1A93C33D279F146800775F16 /* DashboardViewController.swift in Sources */,
+				1A93C341279F147C00775F16 /* DashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A93C30B279F103300775F16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A93C30C279F103300775F16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A93C310279F103400775F16 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +476,6 @@
 				INFOPLIST_FILE = ClearscoreApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +503,6 @@
 				INFOPLIST_FILE = ClearscoreApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
