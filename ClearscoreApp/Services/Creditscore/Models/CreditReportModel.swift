@@ -18,7 +18,6 @@ struct CreditReportModel: Codable, Equatable {
     let hasEverBeenDelinquent: Bool
     
     let percentageCreditUsed: Int
-    let percentageCreditUse: Int
     /// This is returned as an integer within the JSON. Although it's likely to return a 0 or 1 it's still not safe to assume even with a name like 'flag'
     let percentageCreditUsedDirectionFlag: Int
     let changedScore: Int
