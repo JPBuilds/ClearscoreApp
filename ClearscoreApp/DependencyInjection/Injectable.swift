@@ -1,8 +1,5 @@
-import Foundation
-
 @propertyWrapper
 public struct Inject<Value> {
-
     public var wrappedValue: Value?
     
     public init(name: InjectionContainer.Key?, container: InjectionContainer) {
@@ -20,5 +17,4 @@ public struct Inject<Value> {
     public init() {
         self.init(name: nil, container: .default)
     }
-    
 }

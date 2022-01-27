@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A22330A27A1B354009C7890 /* CreditscoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22330927A1B354009C7890 /* CreditscoreService.swift */; };
+		1A22330D27A1B3EF009C7890 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22330C27A1B3EF009C7890 /* NetworkManager.swift */; };
+		1A22333627A1B716009C7890 /* DependencyInjectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22333127A1B715009C7890 /* DependencyInjectionManager.swift */; };
+		1A22333727A1B716009C7890 /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22333227A1B715009C7890 /* Injectable.swift */; };
+		1A22333827A1B716009C7890 /* InjectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22333327A1B715009C7890 /* InjectionContainer.swift */; };
+		1A22334127A1BAB2009C7890 /* CreditReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22334027A1BAB2009C7890 /* CreditReportModel.swift */; };
+		1A65C7B727A2DFCC00D76F33 /* CreditScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65C7B627A2DFCC00D76F33 /* CreditScoreModel.swift */; };
+		1A65C7BD27A2E39400D76F33 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65C7BC27A2E39400D76F33 /* NetworkError.swift */; };
 		1A93C306279F103300775F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C305279F103300775F16 /* AppDelegate.swift */; };
 		1A93C308279F103300775F16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C307279F103300775F16 /* SceneDelegate.swift */; };
 		1A93C30F279F103400775F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A93C30E279F103400775F16 /* Assets.xcassets */; };
@@ -15,11 +23,11 @@
 		1A93C327279F103400775F16 /* ClearscoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C326279F103400775F16 /* ClearscoreAppUITests.swift */; };
 		1A93C329279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C328279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift */; };
 		1A93C338279F13E600775F16 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C337279F13E600775F16 /* RootCoordinator.swift */; };
-		1A93C33A279F13F700775F16 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C339279F13F700775F16 /* Coordinator.swift */; };
 		1A93C33D279F146800775F16 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C33C279F146800775F16 /* DashboardViewController.swift */; };
 		1A93C33F279F147100775F16 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C33E279F147100775F16 /* DashboardInteractor.swift */; };
 		1A93C341279F147C00775F16 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C340279F147C00775F16 /* DashboardViewModel.swift */; };
 		1A93C343279F148500775F16 /* DashboardViewModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C342279F148500775F16 /* DashboardViewModelBuilder.swift */; };
+		1A93C47D279F184800775F16 /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93C47C279F184800775F16 /* DashboardCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A22332A27A1B6E7009C7890 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A22330927A1B354009C7890 /* CreditscoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditscoreService.swift; sourceTree = "<group>"; };
+		1A22330C27A1B3EF009C7890 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1A22333127A1B715009C7890 /* DependencyInjectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjectionManager.swift; sourceTree = "<group>"; };
+		1A22333227A1B715009C7890 /* Injectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
+		1A22333327A1B715009C7890 /* InjectionContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectionContainer.swift; sourceTree = "<group>"; };
+		1A22334027A1BAB2009C7890 /* CreditReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportModel.swift; sourceTree = "<group>"; };
+		1A65C7B627A2DFCC00D76F33 /* CreditScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreModel.swift; sourceTree = "<group>"; };
+		1A65C7BC27A2E39400D76F33 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		1A93C302279F103300775F16 /* ClearscoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearscoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A93C305279F103300775F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A93C307279F103300775F16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,11 +81,11 @@
 		1A93C326279F103400775F16 /* ClearscoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearscoreAppUITests.swift; sourceTree = "<group>"; };
 		1A93C328279F103400775F16 /* ClearscoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearscoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A93C337279F13E600775F16 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
-		1A93C339279F13F700775F16 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		1A93C33C279F146800775F16 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		1A93C33E279F147100775F16 /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
 		1A93C340279F147C00775F16 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		1A93C342279F148500775F16 /* DashboardViewModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModelBuilder.swift; sourceTree = "<group>"; };
+		1A93C47C279F184800775F16 /* DashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +113,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A22330827A1B317009C7890 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A65C7B827A2E0F000D76F33 /* Creditscore */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A22330B27A1B3E2009C7890 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A22330C27A1B3EF009C7890 /* NetworkManager.swift */,
+				1A65C7BC27A2E39400D76F33 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1A22332F27A1B715009C7890 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				1A22333127A1B715009C7890 /* DependencyInjectionManager.swift */,
+				1A22333227A1B715009C7890 /* Injectable.swift */,
+				1A22333327A1B715009C7890 /* InjectionContainer.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		1A65C7B827A2E0F000D76F33 /* Creditscore */ = {
+			isa = PBXGroup;
+			children = (
+				1A22330927A1B354009C7890 /* CreditscoreService.swift */,
+				1A65C7B927A2E0FE00D76F33 /* Models */,
+			);
+			path = Creditscore;
+			sourceTree = "<group>";
+		};
+		1A65C7B927A2E0FE00D76F33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A22334027A1BAB2009C7890 /* CreditReportModel.swift */,
+				1A65C7B627A2DFCC00D76F33 /* CreditScoreModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1A93C2F9279F103300775F16 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +185,9 @@
 				1A93C307279F103300775F16 /* SceneDelegate.swift */,
 				1A93C313279F103400775F16 /* Info.plist */,
 				1A93C335279F13A000775F16 /* UI */,
+				1A22330827A1B317009C7890 /* Services */,
+				1A22330B27A1B3E2009C7890 /* Network */,
+				1A22332F27A1B715009C7890 /* DependencyInjection */,
 				1A93C336279F13AC00775F16 /* Resources */,
 			);
 			path = ClearscoreApp;
@@ -136,7 +213,6 @@
 		1A93C335279F13A000775F16 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				1A93C339279F13F700775F16 /* Coordinator.swift */,
 				1A93C337279F13E600775F16 /* RootCoordinator.swift */,
 				1A93C310279F103400775F16 /* LaunchScreen.storyboard */,
 				1A93C33B279F144800775F16 /* Dashboard */,
@@ -155,6 +231,7 @@
 		1A93C33B279F144800775F16 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				1A93C47C279F184800775F16 /* DashboardCoordinator.swift */,
 				1A93C33E279F147100775F16 /* DashboardInteractor.swift */,
 				1A93C33C279F146800775F16 /* DashboardViewController.swift */,
 				1A93C340279F147C00775F16 /* DashboardViewModel.swift */,
@@ -173,6 +250,7 @@
 				1A93C2FE279F103300775F16 /* Sources */,
 				1A93C2FF279F103300775F16 /* Frameworks */,
 				1A93C300279F103300775F16 /* Resources */,
+				1A22332A27A1B6E7009C7890 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,12 +373,20 @@
 			files = (
 				1A93C338279F13E600775F16 /* RootCoordinator.swift in Sources */,
 				1A93C33F279F147100775F16 /* DashboardInteractor.swift in Sources */,
-				1A93C33A279F13F700775F16 /* Coordinator.swift in Sources */,
+				1A22330D27A1B3EF009C7890 /* NetworkManager.swift in Sources */,
 				1A93C306279F103300775F16 /* AppDelegate.swift in Sources */,
+				1A22334127A1BAB2009C7890 /* CreditReportModel.swift in Sources */,
+				1A65C7B727A2DFCC00D76F33 /* CreditScoreModel.swift in Sources */,
+				1A22333727A1B716009C7890 /* Injectable.swift in Sources */,
+				1A22333827A1B716009C7890 /* InjectionContainer.swift in Sources */,
 				1A93C343279F148500775F16 /* DashboardViewModelBuilder.swift in Sources */,
+				1A22333627A1B716009C7890 /* DependencyInjectionManager.swift in Sources */,
 				1A93C308279F103300775F16 /* SceneDelegate.swift in Sources */,
 				1A93C33D279F146800775F16 /* DashboardViewController.swift in Sources */,
+				1A93C47D279F184800775F16 /* DashboardCoordinator.swift in Sources */,
+				1A22330A27A1B354009C7890 /* CreditscoreService.swift in Sources */,
 				1A93C341279F147C00775F16 /* DashboardViewModel.swift in Sources */,
+				1A65C7BD27A2E39400D76F33 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

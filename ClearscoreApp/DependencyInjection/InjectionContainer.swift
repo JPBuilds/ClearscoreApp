@@ -4,7 +4,6 @@ import Foundation
  Modes to use for each registered service
  */
 public enum InjectionContainerMode {
-    
     /**
      Always recreates the service when injecting an instance
      */
@@ -14,13 +13,11 @@ public enum InjectionContainerMode {
      Keeps a reference to the service after intial injection. Subsequent injections will use the same instance of the service.
      */
     case useContainer
-    
 }
 
 typealias FunctionType = Any
 
 class Injection {
-    
     let mode: InjectionContainerMode
     let resolver: FunctionType
     
@@ -28,19 +25,13 @@ class Injection {
         self.mode = mode
         self.resolver = resolver
     }
-    
 }
 
 /**
  `InjectionContainer` contains all registered services to be passed to `DependencyInjectionContainer`.
  */
 public class InjectionContainer {
-    
-    /**
-     Used to name registrations on the injection container. Using different keys will use a different registration.
-     */
     public struct Key: ExpressibleByStringLiteral {
-        
         public typealias StringLiteralType = String
         
         let rawValue: String
@@ -48,7 +39,6 @@ public class InjectionContainer {
         public init(stringLiteral value: String) {
             self.rawValue = value
         }
-        
     }
     
     public static let `default` = InjectionContainer()
