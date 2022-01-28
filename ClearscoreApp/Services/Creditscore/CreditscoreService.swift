@@ -16,18 +16,6 @@ class ConcreteCreditscoreService: CreditscoreService {
         let request = URLRequest(
             url: .init(string: "https://5lfoiyb0b3.execute-api.us-west-2.amazonaws.com/prod/mockcredit/values")!
         )
-        networkManager.request(urlRequest: request, response: { result in
-            switch result {
-            case .success(let data):
-                do {
-                    let object = try JSONDecoder().decode(CreditScoreModel.self, from: data)
-                    completion(.success(object))
-                } catch let error {
-                    completion(.failure(.decodingError(error as? DecodingError)))
-                }
-            case .failure(let urlError):
-                completion(.failure(.urlError(urlError.code)))
-            }
-        })
+        networkManager.requestObject(request, callbackQueue: .main, response: completion)
     }
 }

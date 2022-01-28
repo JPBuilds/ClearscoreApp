@@ -1,10 +1,10 @@
 import Foundation
 
-enum NetworkError: Error {
+enum NetworkError: Error, Equatable {
     case urlError(URLError.Code)
 
     case badResponse
-    case decodingError(DecodingError?)
+    case decodingError
     
     var isConnectionError: Bool {
         switch self {
@@ -19,3 +19,4 @@ enum NetworkError: Error {
         }
     }
 }
+

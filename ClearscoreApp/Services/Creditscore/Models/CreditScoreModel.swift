@@ -9,7 +9,8 @@ struct CreditScoreModel: Codable, Equatable {
     
     let accountIDVStatus: String
     let creditReportInfo: CreditReportModel
-    let dashboardStatus, personaType: String
+    let dashboardStatus: String
+    let personaType: String
     let coachingSummary: CoachingSummary
     let augmentedCreditScore: Int?
 }
